@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="trcrm suite" duration-ms="22446" started-at="2021-11-01T12:33:20Z" finished-at="2021-11-01T12:33:42Z">
+    <groups>
+    </groups>
+    <test name="SignUPTest" duration-ms="18968" started-at="2021-11-01T12:33:20Z" finished-at="2021-11-01T12:33:39Z">
+      <class name="com.tests.SignUpTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.tests.SignUpTest@4bec1f0c]" name="setUp" is-config="true" duration-ms="17846" started-at="2021-11-01T12:33:20Z" finished-at="2021-11-01T12:33:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://trcrm.com/login/en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:0, instance:com.tests.SignUpTest@4bec1f0c]" name="verifySignUpLinkTest" duration-ms="1111" started-at="2021-11-01T12:33:38Z" finished-at="2021-11-01T12:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.SignUpTest@4bec1f0c]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-11-01T12:33:39Z" finished-at="2021-11-01T12:33:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.SignUpTest -->
+    </test> <!-- SignUPTest -->
+    <test name="LoginTest" duration-ms="22446" started-at="2021-11-01T12:33:20Z" finished-at="2021-11-01T12:33:42Z">
+      <class name="com.tests.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.tests.LoginTest@5f341870]" name="setUp" is-config="true" duration-ms="10066" started-at="2021-11-01T12:33:20Z" finished-at="2021-11-01T12:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://trcrm.com/login/en]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pageTitleTest()[pri:1, instance:com.tests.LoginTest@5f341870]" name="pageTitleTest" duration-ms="225" started-at="2021-11-01T12:33:30Z" finished-at="2021-11-01T12:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTitleTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:3, instance:com.tests.LoginTest@5f341870]" name="loginTest" duration-ms="11084" started-at="2021-11-01T12:33:30Z" finished-at="2021-11-01T12:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sachinsharma263@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bholababa@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTest@5f341870]" name="tearDown" is-config="true" duration-ms="1012" started-at="2021-11-01T12:33:41Z" finished-at="2021-11-01T12:33:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- trcrm suite -->
+</testng-results>

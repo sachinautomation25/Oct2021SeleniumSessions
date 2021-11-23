@@ -1,0 +1,4 @@
+We always write our test inside src/test/java
+testng should be install/configure in our system i.e in eclipse
+1 is tesng plugin >help install new software
+2 is add testng dependency in pom.xml
